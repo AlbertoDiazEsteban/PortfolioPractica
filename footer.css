@@ -1,0 +1,129 @@
+/* font-family: 'Nunito', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,700;0,1000;1,300;1,700;1,900&display=swap');
+
+* {
+    line-height: 1.2;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+    
+
+}
+
+footer {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #11101b;
+    background-color: #fefefe;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    padding: 60px 10%;
+}
+
+.footer-col a img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    background-color: #fefefe;
+    transition: all 0.3s ease 0s;
+}
+
+.footer-col a img:hover {
+    transform: scale(1.2);
+}
+
+footer ul {
+    list-style: none;
+}
+
+.footer-col {
+    width: 25%;
+}
+
+.footer-col h4 {
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color:#11101b;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background-color: aqua;
+    height: 2px;
+    width: 40px;
+}
+
+footer ul li:not(:last-child){
+    margin-bottom: 8px;
+}
+
+footer ul li a {
+    display: block;
+    font-size: 18px;
+    color: #11101b;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+footer ul li a:hover {
+    color: #11101b;
+    padding-left: 5px;
+}
+
+.links a {
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    background-color: #11101b;
+    color: aqua;
+    margin: 0 8px 8px 0;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+
+.links a:hover {
+    background-color: aqua;
+    color: #11101b;
+}
+
+@media(max-width: 740px) {
+    
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .footer-col h4::before {
+        all: unset;
+    }
+
+    .footer-col a img {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 555px) {
+    
+    .footer-col {
+        width: 100%;
+    }
+
+    .footer-col a img {
+        width: 70px;
+        height: 70px;
+    }
+}

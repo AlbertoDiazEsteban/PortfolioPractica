@@ -1,0 +1,27 @@
+
+body {
+    background-color: #d9e2e6;
+}
+
+
+.title h1 {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: italic;
+    color: #11101b;
+    transition: all 0.3s ease 0s;
+  }
+
+  .title h1:hover {
+    transform: scale(1.2);
+  }
+
+.portfolio iframe {
+    height: 900px;
+    width: 70%;
+    margin: 0 15%;
+}

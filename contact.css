@@ -1,0 +1,113 @@
+.reserva {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 50px;
+    background-color: #fefefe;
+    text-align: center;
+    align-items: center;
+  }
+
+  .reserva img {
+    border-radius: 5px;
+    height: auto;
+    width: 500px;
+    max-width: 100%;
+  }
+
+  .titulo-formulario {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+    color: #35344b;
+    margin-bottom: 30px;
+  }
+
+  .form-group {
+    text-align: left;
+    margin-bottom: 20px;
+  } 
+
+  .form-group p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1b3039;
+    margin-top: 5px;
+  }
+
+  .form-group label {
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #1b3039;
+    margin-bottom: 5px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #1b3039;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(27, 48, 57, 0.2);
+    width: 100%;
+  } 
+
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(27, 48, 57, 0.4);
+  }
+
+  .form-group input[type="date"] {
+    appearance: none;
+    background: url('https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_date_range_48px-512.png') no-repeat right center;
+    background-size: 20px 20px;
+    padding-right: 30px;
+  }
+
+  .form-group input[type="number"] {
+    appearance: none;
+    background: url('https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_people_48px-512.png') no-repeat right center;
+    background-size: 20px 20px;
+    padding-right: 30px;
+  } 
+
+  button {
+    justify-content: flex-end;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 0px 15px 5px rgba(27, 48, 57, 0.281);
+    z-index: -5;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: rgb(107, 255, 255);
+    color: #11101b;
+    box-shadow: none;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+      
+    
+    .reserva {
+          margin-top: 50px;
+    }
+  }
