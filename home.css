@@ -175,7 +175,44 @@ body {
   }
   
 
-
+  @media only screen and (max-width: 768px) {
+    #about {
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 150px;
+      height: auto;
+      border-radius: 0;
+    }
+    
+    .me-img {
+      margin-top: -350px;
+      margin-left: -50px;
+      width: 50%;
+      max-width: 300px;
+    }
+    
+    h1 {
+      margin-left: 50px;
+      font-size: 50px;
+      margin-top: 50px;
+      z-index: 3;
+    }
+    
+    h2 {
+      margin-left: 50px;
+      font-size: 40px;
+      z-index: 3;
+    }
+    
+    .typing-text-container {
+      position: relative;
+      margin-top: 50px;
+      margin-left: 50px;
+      text-align: center;
+      z-index: 3;
+    }
+  }
+  
 
 
 
